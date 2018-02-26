@@ -1,0 +1,4 @@
+void CalculateTaxes(float gross, float deferred, float *fedtax, float *statetax, float *ssitax; //3.5
+float CalcFedtax(float gross, float deferred); 
+float CalcStatetax(float fedtax); 
+float CalcSSItax(float gross, float deferred);
