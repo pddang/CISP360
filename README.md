@@ -1,1 +1,1 @@
-This payroll app has been successfully test in Linux environment.
+This payroll app has been successfully tested in Linux environment.
