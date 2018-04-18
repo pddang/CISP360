@@ -1,3 +1,1 @@
-# CISP360
-Sac City College
-This is the test code
+This payroll app has been successfully test in Linux environment.
