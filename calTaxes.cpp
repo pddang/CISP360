@@ -1,7 +1,7 @@
 
 /*
- Program: Assignment2- Payroll application- Module 3.5 calTaxes
- Author: Phan Dang- CISP360-Sacramento City College-Spring 2018
+ Program: Payroll application- Module 3.5 calTaxes
+ Author: Phan Dang
  Purpose:Federal Tax, State Tax, SSI Tax deducted from gross pay.
  -----------------------------------------------
  Date        Who            What
@@ -20,9 +20,7 @@
 */
 #include <stdio.h>
 #include "./myTaxes.h"
-void inputEmployeeData(char *firstName, char *lastName, float *payRate, float *hours, float *defr); // 3.3
 void calGross(float *hours, float *payRate, float *gross, float *reghrs, float *ovthrs);//3.4
-
 void calTaxes(float *gross, float *defr, float * fedtax, float * statetax, float * ssitax);
 float calFed(float gross,float defr); // 3.5.1
 float calState(float fedtax); // 3.5.2
@@ -42,7 +40,7 @@ float calFed(float gross,float defr) // 3.5.1
 }
 float calState(float fedtax) // 3.5.2
 {
-  return (fedtax * 0.07);
+  return (fedtax * STATETAXRATE);
 }
 float calSSI(float gross, float defr) // 3.5.3
 {

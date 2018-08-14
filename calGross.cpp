@@ -1,6 +1,6 @@
 /*
- Program: Assignment 2- Payroll application-Module 3.4
- Author: Phan Dang- CISP360-Sacramento City College-Spring 2018
+ Program:  Payroll application-Module 3.4
+ Author: Phan Dang
  Purpose: Module 3.4 calGross- Calculate gross based on the user inputs. If the hours
  is less than or equal 40 hours, let gross pay equal pay rate time hours.If the hours
  over 40 hrs, overtime is counted as 1.5 times overtime hours times pay rate.
