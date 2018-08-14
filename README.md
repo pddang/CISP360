@@ -15,5 +15,7 @@ How to run the code:
 
 *In the Windows/Mac environment: 
 -In main.cpp, change the directory to the location in which you save the file, other error will appear: "File open failed..Terminating"
+
+
 *In the Linux environment:
 -In main.cpp, change directory to \ and add the root directory to the code. For example: payroll\employee.dat.
