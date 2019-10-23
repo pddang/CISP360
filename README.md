@@ -14,7 +14,7 @@ The program resembles the layout of a paystub.
 How to run the code:
 
 *In the Windows/Mac environment: 
--In main.cpp, change the directory to the location in which you save the file, other error will appear: "File open failed..Terminating"
+-In main.cpp, change the directory to the location in which you save the file, otherwise error will appear: "File open failed..Terminating"
 
 
 *In the Linux environment:
