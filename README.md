@@ -1,5 +1,4 @@
 # Payroll-App
-CISP 360
 Overview: 
 The application produced a report including gross pay, regular hours, overtime hours,
 federal taxes, statetaxes, SSI taxes, net pay through the employee data file: employees.dat, employeesinfo.dat, and zipcode.dat.
